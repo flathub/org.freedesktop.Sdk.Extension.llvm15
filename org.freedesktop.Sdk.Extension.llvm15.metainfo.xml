@@ -9,6 +9,5 @@
     <url type="homepage">https://github.com/flathub/org.freedesktop.Sdk.Extension.llvm15</url>
     <releases>
         <release version="15.0.6" date="2022-11-29"/>
-        <release version="15.0.6" date="2022-11-29"/>
     </releases>
 </component>
