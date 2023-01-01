@@ -46,7 +46,7 @@ It's possible that your app will additionally need some special variable(s) besi
 If your app dynamically links to any shared library provided by this extension then you need to copy that library into `/app/lib` during the build, i.e:
 
 ```
-cp /usr/lib/sdk/llvm14/lib/libLLVM-15.so /app/lib/
+cp /usr/lib/sdk/llvm15/lib/libLLVM-15.so /app/lib/
 ```
 
 ### Debugging/Development
