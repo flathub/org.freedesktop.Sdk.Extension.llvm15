@@ -13,6 +13,7 @@
     "cxxflags": "-g0"
     },
   "modules": [
+    "shared-modules/lua5.4/lua-5.4.json",
     {
       "name": "swig",
       "config-opts": [
