@@ -1,10 +1,10 @@
 {
   "id": "org.freedesktop.Sdk.Extension.llvm15",
-  "branch": "22.08",
+  "branch": "23.08",
   "runtime": "org.freedesktop.Sdk",
   "build-extension": true,
   "sdk": "org.freedesktop.Sdk",
-  "runtime-version": "22.08",
+  "runtime-version": "23.08",
   "separate-locales": false,
   "appstream-compose": false,
   "build-options": {
@@ -23,8 +23,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.sourceforge.net/swig/swig-4.0.2.tar.gz",
-          "sha256": "d53be9730d8d58a16bf0cbd1f8ac0c0c3e1090573168bfa151b01eb47fa906fc"
+          "url": "https://download.sourceforge.net/swig/swig-4.1.1.tar.gz",
+          "sha256": "2af08aced8fcd65cdb5cc62426768914bedc735b1c250325203716f78e39ac9b"
         }
       ]
     },
