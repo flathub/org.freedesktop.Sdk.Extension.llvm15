@@ -1,12 +1,11 @@
 {
   "id": "org.freedesktop.Sdk.Extension.llvm15",
-  "branch": "23.08",
+  "branch": "24.08",
   "runtime": "org.freedesktop.Sdk",
   "build-extension": true,
   "sdk": "org.freedesktop.Sdk",
-  "runtime-version": "23.08",
+  "runtime-version": "24.08",
   "separate-locales": false,
-  "appstream-compose": false,
   "build-options": {
     "prefix": "/usr/lib/sdk/llvm15",
     "cflags": "-g0",
@@ -163,8 +162,7 @@
       "name": "appdata",
       "buildsystem": "simple",
       "build-commands": [
-        "install -Dm0644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.metainfo.xml",
-        "appstream-compose --basename=${FLATPAK_ID} --prefix=${FLATPAK_DEST} --origin=flatpak ${FLATPAK_ID}"
+        "install -Dm0644 -t ${FLATPAK_DEST}/share/metainfo/ ${FLATPAK_ID}.metainfo.xml"
       ],
       "sources": [
         {
